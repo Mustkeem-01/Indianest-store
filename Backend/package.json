@@ -6,9 +6,8 @@
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "db:generate": "drizzle-kit generate:pg --out ./drizzle --schema ./src/db/schema.ts",
-    "db:migrate": "drizzle-kit migrate:pg --schema ./src/db/schema.ts --migrations ./drizzle",
-    "db:rollback": "drizzle-kit rollback:pg --schema ./src/db/schema.ts --migrations ./drizzle"
+    "db:push": "drizzle-kit push"
+    
   },
   "keywords": [],
   "author": "",
